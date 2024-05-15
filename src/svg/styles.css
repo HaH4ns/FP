@@ -1,0 +1,43 @@
+/* styles.css */
+
+.App {
+  font-family: sans-serif;
+  text-align: center;
+  display: grid;
+  grid-template-columns: 300px 1fr;
+  column-gap: 32px;
+  padding: 40px;
+}
+
+.tip {
+  color: #777;
+  margin-top: -16px;
+  margin-bottom: 32px;
+}
+
+.rooms {
+  text-align: left;
+  font-size: 18px;
+}
+
+.square {
+  display: inline-block;
+  height: 15px;
+  width: 15px;
+  margin-right: 10px;
+  margin-bottom: -1px;
+  border-radius: 3px;
+}
+
+.room-link {
+  cursor: pointer;
+  border: 1px solid #e1e1e1;
+  padding: 12px 12px;
+  margin-top: 4px;
+  border-radius: 2px;
+}
+
+.room-link.active {
+  border-color: #333;
+  font-weight: 600;
+}
